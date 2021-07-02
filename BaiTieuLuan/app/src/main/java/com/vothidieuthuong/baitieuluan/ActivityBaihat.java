@@ -91,10 +91,10 @@ public class ActivityBaihat extends AppCompatActivity {
          public void onClick(View v) {
              if(Player.isPlaying()){
                  Player.pause();
-                 imgplay.setBackgroundResource(R.drawable.dung1);
+                 imgplay.setBackgroundResource(R.drawable.dung);
              }else{
                  Player.start();
-                 imgplay.setBackgroundResource(R.drawable.dung);
+                 imgplay.setBackgroundResource(R.drawable.dung1);
 
              }
          }
@@ -199,9 +199,9 @@ public class ActivityBaihat extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onStop() {
-     Player.stop();
-        super.onStop();
-    }
+    //@Override
+//    protected void onStop() {
+//     Player.stop();
+//        super.onStop();
+//    }
 }
