@@ -43,6 +43,8 @@ public class Adapter_baihat extends BaseAdapter {
         convertView= inflater.inflate(nlayout, null);
         //anhs xaj
 
+        ImageView imgbh=(ImageView) convertView.findViewById(R.id.imgbh) ;
+        imgbh.setImageResource(nlistbaihat.get(position).Anh);
         TextView txttenbh=(TextView) convertView.findViewById(R.id.tenbh);
         txttenbh.setText(nlistbaihat.get(position).tenbaihat);
         TextView txttencasi=(TextView) convertView.findViewById(R.id.sumtime);

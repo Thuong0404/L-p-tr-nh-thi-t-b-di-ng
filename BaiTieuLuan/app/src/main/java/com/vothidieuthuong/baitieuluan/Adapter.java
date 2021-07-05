@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,10 +13,10 @@ import java.time.temporal.Temporal;
 import java.util.List;
 
 public class Adapter extends BaseAdapter {
-    Context ncontext;
+    MainActivity ncontext;
     int nlayout;
     List<list_casi> nlistcasi;
-     Adapter(Context context, int Layout, List<list_casi> lisst){
+    public Adapter(MainActivity context, int Layout, List<list_casi> lisst){
        ncontext=context;
        nlayout=  Layout;
        nlistcasi=lisst;
@@ -48,6 +49,21 @@ public class Adapter extends BaseAdapter {
         imgcasi.setImageResource(nlistcasi.get(position).hinhcasi);
         TextView txttencasi=(TextView) convertView.findViewById(R.id.txtcasi);
         txttencasi.setText(nlistcasi.get(position).tencasi);
+//        ImageButton imgupdate=(ImageButton) convertView.findViewById(R.id.imgedit);
+//        ImageButton imgdelete=(ImageButton) convertView.findViewById(R.id.imgdelete);
+//
+//        imgupdate.setOnClickListener(new View.OnClickListener() {
+//             @Override
+//             public void onClick(View v) {
+//                 ncontext.Update(position);
+//             }
+//         });
+//        imgdelete.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                ncontext.Delete(position);
+//            }
+//        });
         return convertView;
     }
 }

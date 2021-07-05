@@ -84,7 +84,7 @@
                android:scaleType="fitXY"
                android:background="@null"
                tools:ignore="NestedWeights"
-               android:src="@drawable/ql"></ImageButton>
+               android:src="@drawable/rewind"></ImageButton>
 
            <ImageButton
                android:id="@+id/stop"
@@ -94,7 +94,7 @@
                android:scaleType="fitXY"
                android:background="@null"
                tools:ignore="NestedWeights"
-               android:src="@drawable/dung1"></ImageButton>
+               android:src="@drawable/pause"></ImageButton>
            <ImageButton
                android:id="@+id/next"
                android:layout_weight="1"
