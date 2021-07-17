@@ -220,7 +220,7 @@ public class ActivityYeuthich extends AppCompatActivity {
         seekBar.setMax(Player.getDuration());
         Player.start();
         intent.putExtra("Ten_ba_hat",txtdagphat.getText().toString().trim());
-        clickStartService();
+       startService(intent);
     }
 
 

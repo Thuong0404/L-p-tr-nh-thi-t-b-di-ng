@@ -52,7 +52,7 @@
     </LinearLayout>
 
     <LinearLayout
-android:layout_marginLeft="70dp"
+       android:layout_marginLeft="70dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -63,18 +63,18 @@ android:layout_marginLeft="70dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="20dp"
             android:src="@drawable/rewind"
-            android:layout_marginRight="10dp" />
+            android:layout_marginRight="20dp" />
 
         <ImageView
             android:id="@+id/pause"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="10dp"
+            android:layout_marginEnd="20dp"
             android:src="@drawable/pause"
-            android:layout_marginRight="10dp" />
+            android:layout_marginRight="20dp" />
 
         <ImageView
             android:id="@+id/btnnext"
@@ -82,7 +82,7 @@ android:layout_marginLeft="70dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:src="@drawable/next"
-            android:layout_marginRight="10dp" />
+            android:layout_marginRight="20dp" />
 
     </LinearLayout>
 
